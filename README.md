@@ -15,8 +15,8 @@ It's meant to be **the** toolkit for building games, providing every piece of co
 It's also really easy to use — just some three CMake lines will get you Yttrium with all its dependencies, no manual work required.
 
 [Aulos](https://github.com/blagodarin/aulos) is a realtime audio synthesis toolkit.
-It can be used as audio middleware as well as a standalone tool.
-Aulos serves as an audio backend for Yttrium.
+It can be used as middleware as well as a standalone tool.
 
-[Primal](https://github.com/blagodarin/primal) is a general-purpose utility library that lays the foundation for other
-projects.
+[Seir](https://github.com/blagodarin/seir) is the foundation all other projects are built upon.
+It provides a set of C++ libraries as well as a simple CMake-based package management solution,
+and is meant to replace Yttrium as an all-in-one toolkit.
